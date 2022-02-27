@@ -26,7 +26,8 @@ nav{
     height: auto;
     position: static;
 }
-.header-logo{
+
+.logo{
     display: block;
     margin: 0;
     padding: 0;
@@ -34,6 +35,14 @@ nav{
     height: auto;
     position: static;
 }
+.logo h3{
+    font-family: 'Muli', sans-serif;
+    font-weight:100;
+    text-transform:uppercase;
+    color:#545454;
+    line-height:0.3;
+    text-align: center;
+  }
 .nav-wrap{
     display: flex;
     align-items: flex-end;
@@ -102,7 +111,7 @@ nav{
 }
 .grid-block{
     float: left;
-    margin: 0;
+    margin: 20px 20px;
     padding: 0;
     float: left;
 
@@ -114,8 +123,10 @@ nav{
     justify-content: center;
     margin-bottom: 40px;
     padding: 0;
+    border-radius: 50px;
     height: 460px;
     text-align: center;
+    width: 875px;
 }
 .description{
     display: flex;
@@ -195,6 +206,7 @@ footer{
 .footer-logo{
     margin: -2px 8px 0 0;
     padding: 0;
+    font-size: 12px;
 }
 .footer-nav{
     display: flex;
