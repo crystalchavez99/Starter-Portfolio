@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -224,4 +227,34 @@ footer{
 }
 .footer-nav-item:hover{
     opacity: 1;
+}
+
+@media screen and (max-width: 400px){
+    main{
+        text-align: center;
+    }
+    .grid-block{
+        visibility: hidden;
+        display: none;
+    }
+    .logo h3{
+        display: inline;
+        text-align: center;
+        font-size: smaller;
+    }
+    .work-experience-grid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .headline-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45px;
+    }
+    .head-jumbo{
+        font-size: 25px;
+    }
 }
