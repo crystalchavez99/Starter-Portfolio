@@ -229,7 +229,7 @@ footer{
     opacity: 1;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 750px){
     main{
         text-align: center;
     }
